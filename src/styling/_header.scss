@@ -1,0 +1,32 @@
+header {
+  grid-area: h;
+  & a:link {
+    text-decoration: none;
+  }
+  & .header-container {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 1.6em;
+    font-weight: bold;
+    background-color: #3380cc;
+
+    & .logo-name {
+      cursor: pointer;
+      color: #e8e8e8;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: 1028px) {
+  .header-container {
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .logo-name {
+    font-size: 1.6em;
+  }
+}

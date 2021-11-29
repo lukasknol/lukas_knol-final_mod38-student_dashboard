@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Roboto:wght@100&display=swap');
+@import './header';
+@import './navbar';
+@import './average';
+@import './student';
+@import './assignment';
+@import './chart';
+@import './sort';
+@import './footer';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  font-family: 'Roboto', sans-serif !important;
+  background: #e8e8e8;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  overflow-y: hidden;
+
+}
+::-webkit-scrollbar-thumb {
+  background: #141414;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 12px #e8e8e8;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: inset 5px 12px 12px #f0f0f0;
+}
+
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    'h h h h'
+    'n n n n'
+    'm m m m'
+    'f f f f';
+}
+
+@media (min-width: 1028px) {
+  .App {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 220px repeat(3, 1fr);
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      'h h h h '
+      'n m m m '
+      'f m m m ';
+  }
+}

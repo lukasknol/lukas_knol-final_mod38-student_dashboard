@@ -1,0 +1,56 @@
+.assignment-container {
+  grid-area: m;
+  width: 100%;
+  & span {
+    color: #3380cc;
+  }
+}
+.assignment {
+  width: 95%;
+  margin: auto;
+  & .assignment-header {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 40px;
+  }
+}
+.student-switches {
+  border-right: 1px solid #223243;
+  border-left: 1px solid #223243;
+  border-bottom: 1px solid #223243;
+  border-radius: 3px;
+  & ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 20px;
+    padding: 5px;
+    list-style: none;
+    li label {
+      cursor: pointer;
+    }
+  }
+  & .banner {
+    border-radius: 3px 3px 0 0;
+    background-color: #223843;
+    color: #e8e8e8;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 1028px) {
+  .assignment-container {
+    overflow-y: scroll;
+  }
+  .assignment {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .assignment-container .chart {
+    margin-top: 75px;
+  }
+  .assignment-header span {
+    font-size: 30px;
+  }
+}

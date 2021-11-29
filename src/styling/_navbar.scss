@@ -1,0 +1,86 @@
+nav {
+  grid-area: n;
+  background-color: #3380cc;
+  width: 100%;
+  & .nav-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    .students-overview-average {
+      width: 95%;
+      margin: auto;
+    }
+  }
+  & #dropdown-basic-button {
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #263749;
+    color: #e8e8e8;
+    border: 1px solid #263749;
+    box-shadow: none;
+    outline: none;
+  }
+  & .nav-item {
+    width: 100%;
+  }
+  & .dropdown-menu.show {
+    width: 100%;
+    max-height: 340px;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 1028px) {
+  .nav-container-desktop {
+    padding: 20px;
+    height: 100%;
+    & .nav-item {
+      color: #e8e8e8;
+    }
+    & .nav-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    & .nav-group {
+      padding-top: 10px;
+      padding-left: 10px;
+      width: 100%;
+      & .nav-assignments {
+        margin-right: 10px;
+        overflow-y: scroll;
+        max-height: 210px;
+      }
+      & h3 {
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #e8e8e8;
+      }
+      & ul {
+        list-style: none;
+        & li {
+          padding-left: 40px;
+          cursor: pointer;
+          &:hover {
+            width: 100%;
+            background-color: #263749;
+            color: #e8e8e8;
+            border-radius: 3px;
+          }
+          &:hover > a {
+            color: #e8e8e8;
+            text-decoration: none;
+          }
+        }
+      }
+      & .is-active {
+        color: #e8e8e8;
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 1em;
+        padding: -15px;
+      }
+    }
+  }
+}

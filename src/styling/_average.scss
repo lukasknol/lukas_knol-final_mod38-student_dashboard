@@ -1,0 +1,71 @@
+.average {
+  grid-area: m;
+  width: 100%;
+  font-size: 16px;
+
+  & span {
+    color: #ffffff;
+  }
+  & .average-container {
+    width: 95%;
+    margin: auto;
+    & .average-header {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 500;
+      padding: 40px;
+    }
+    & .student-switches {
+      border-right: 1px solid #223243;
+      border-left: 1px solid #223243;
+      border-bottom: 1px solid #223243;
+      border-radius: 3px;
+      & .banner {
+        border-radius: 3px 3px 0 0;
+        background-color: #223243;
+        color: #e8e8e8;
+        padding: 5px;
+      }
+    }
+
+    & .assignment-options {
+      margin-top: 20px;
+      border-radius: 3px;
+      border-right: 1px solid #223243;
+      border-left: 1px solid #223243;
+      border-bottom: 1px solid #223243;
+      & .assignment-banner {
+        border-radius: 3px 3px 0 0;
+        background-color: #223243;
+        color: #e8e8e8;
+        padding: 5px;
+      }
+      & select {
+        width: 100%;
+        border: 1px solid #ffffff;
+        border-radius: 0 0 3px 3px;
+        padding: 3px;
+        outline: none;
+        font-size: 14px;
+        cursor: pointer;
+        & option {
+          color: #223243;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif, sans-serif;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1028px) {
+  .average {
+    overflow-y: scroll;
+  }
+  .stylewrapper {
+    max-width: 1350px;
+    margin: auto;
+  }
+  .average-header span {
+    font-size: 25px;
+  }
+}
