@@ -1,6 +1,6 @@
 # Final Exercise: Student Dashboard
 
-Goal: to make it easy for Winc teachers to see how the students evaluate the assignments.\
+Goal: To make it easy for Winc teachers to see how the students evaluate the assignments.\
 Design: We would like to see, per assignment, the evaluation of each student in a "Bar Chart".\
 Tools: Use a JavaScript framework such as React.
 
