@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/css/main.200b6aab.chunk.css",
+    "main.js": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/main.65c32118.chunk.js",
+    "main.js.map": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/main.65c32118.chunk.js.map",
+    "runtime-main.js": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/runtime-main.548f6bcb.js",
+    "runtime-main.js.map": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/runtime-main.548f6bcb.js.map",
+    "static/css/2.150d169a.chunk.css": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/css/2.150d169a.chunk.css",
+    "static/js/2.2743b1af.chunk.js": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/2.2743b1af.chunk.js",
+    "static/js/2.2743b1af.chunk.js.map": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/2.2743b1af.chunk.js.map",
+    "index.html": "/lukasknol/lukas_knol-final_mod38-student_dashboard/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.200b6aab.chunk.css.map": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/css/main.200b6aab.chunk.css.map",
+    "static/js/2.2743b1af.chunk.js.LICENSE.txt": "/lukasknol/lukas_knol-final_mod38-student_dashboard/static/js/2.2743b1af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.548f6bcb.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.2743b1af.chunk.js",
+    "static/css/main.200b6aab.chunk.css",
+    "static/js/main.65c32118.chunk.js"
+  ]
+}
